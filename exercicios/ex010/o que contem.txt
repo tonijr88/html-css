@@ -1,0 +1,3 @@
+utilizar links externos com o comando <a> e links para download 
+ensina como voltar para pagina anterior
+e ensina como voltar para pagina anterior saindo da subpasta para a principal

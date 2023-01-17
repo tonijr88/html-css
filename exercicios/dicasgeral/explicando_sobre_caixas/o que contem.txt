@@ -1,0 +1,51 @@
+Tudo que você vê num site é colocado em caixas. No CSS existe algo chamando de aninhamento, como aquelas bonecas russas, uma coisa dentro de outra coisa e assim vai.
+
+Uma caixa de texto nós temos o "height" que quer dizer altura, e temos o "width" que quer dizer largura.
+
+A "border" é uma linha que fica em torno do seu conteúdo. 
+
+O espaço que fica entre a linha e o conteúdo se chama "padding", quer dizer que quando se utiliza esse elemento nós damos uma inflada nessa borda, ficando mais distante do conteúdo, podendo ser configurado em altura para cima para baixo e largura para esquerda ou direita com "padding-top", "padding-right", "padding-bottom" e "padding-left".
+
+Da borda para fora nós temos o "margin" que é um conteúdo fora da caixa. 
+Temos o conteúdo fora do elemento que se chama "outline", é bom para conteúdos de acessibilidade.
+
+"Box level", sempre inicia numa nova linha, e ocupada a largura total da página. E depois pula para linha de baixo e vai colocando outros "boxes".
+                    Características
+        Ocupam toda a largura disponível: as caixas de  bloco sempre ocupam toda a largura disponível na tela, independentemente do tamanho do conteúdo.
+        Criam novos blocos: as caixas de bloco criam novos blocos na página, ou seja, cada caixa de bloco é exibida em uma nova linha, abaixo da caixa anterior.
+        Possuem margens e padding: as caixas de bloco possuem margens e padding, que podem ser estilizadas com CSS para controlar o espaço entre o conteúdo e as bordas da caixa.
+        Possuem largura e altura: as caixas de bloco possuem largura e altura, que podem ser definidas com CSS para controlar o tamanho da caixa.
+        Suportam elementos filhos: as caixas de bloco podem conter outras caixas (elementos filhos) dentro delas, como outras caixas de bloco, caixas de linha e caixas de caractere.
+
+"Inline-leve!" tudo é na característica dentro da linha, então não ocupa o tamanho todo só o tamanho necessário, não quebra linha, não adiciona um novo bloco na página.
+Alguns exemplos de elementos HTML que são caixas inline-level incluem:
+
+        <a> (tags de hiperlink)
+        <span> (elementos de conteúdo inline genéricos)
+        <img> (imagens)
+        <input> (campos de entrada)
+        No CSS, é possível transformar elementos block-level em inline-level usando a propriedade display: inline, e vice-versa usando display: block. Algumas outras propriedades úteis para trabalhar com caixas inline-level incluem:
+
+        float: Isso permite que as caixas inline-level flutuem à esquerda ou à direita, permitindo que outros elementos sejam posicionados ao seu redor.
+        vertical-align: Isso permite que você ajuste a alinhamento vertical das caixas inline-level em relação ao texto ao redor delas.
+        line-height: Isso permite que você ajuste o espaço entre linhas de texto dentro de caixas inline-level.
+
+
+Nota: Sempre que utlizamos a tag "div" utilizamos uma caixa do tipo box level, e sempre que utilizamos a tag "span" ela é do tipo box in-line level. 
+
+    div é um elemento de bloco, o que significa que ocupa toda a largura disponível e começa em uma nova linha. Ele é usado para agrupar outros elementos e dar estilo a eles.
+
+    span é um elemento de linha, o que significa que ocupa apenas o espaço que precisa e não começa em uma nova linha. Ele é usado para marcar uma pequena parte de um texto ou outro conteúdo e dar estilo a ela.
+    Os elementos dentro de cada uma delas são chamados de conteúdo filho.
+
+div                             span
+    h1 - h6                 a 
+    p                       code 
+    main                    small 
+    header                  strong
+    nav                     em 
+    article                 sup-sub
+    aside                   label
+    foot                    button
+    form                    input
+    video                   select

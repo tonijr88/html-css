@@ -1,0 +1,8 @@
+nesse vimos que tem com formatar os textos
+
+O comando correto para formatar um paragrafo pode ser:
+
+text-align: justify; para centralizar, justificar etc.
+text-indent: 35px; para o recuo do paragrafo;
+text-align-last: center; serve para deixa a ultima linha centralizada
+margin: 10px; esse comando é para recuo da margem do texto

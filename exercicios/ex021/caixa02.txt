@@ -1,0 +1,91 @@
+Grouping Tags
+
+header = cabeçalho
+main = conteúdo principal
+footer = rodapé
+
+NOTA:   São todos como uma "div".
+
+NOTA:   A tag "nav" é um elemento semântico, o que significa que ela ajuda a dar significado estrutural e semântico ao conteúdo dentro dela. Isso pode ajudar os mecanismos de busca a entender melhor a estrutura do site e pode tornar o conteúdo mais acessível para leitores de tela e outras ferramentas de acessibilidade
+
+NOTA:   A div não morreu, mas não tem contéudo semântico.
+
+NOTA:   A tag "section" do HTML é usada para marcar uma seção de um documento que contém um conjunto específico de conteúdo relacionado. A tag "section" é usada para dividir o conteúdo em blocos lógicos e dar significado estrutural e semântico ao conteúdo dentro dela. Isso pode ajudar os mecanismos de busca a entender melhor a estrutura do site e pode tornar o conteúdo mais acessível para leitores de tela e outras ferramentas de acessibilidade.
+    A tag "section" é semelhante à tag "div", mas enquanto o "div" é usado para dividir o conteúdo em blocos semânticos, a "section" indica que o conteúdo dentro dele tem uma relação lógica e estrutural.
+
+NOTA:   A tag "article" do HTML é usada para marcar um conteúdo autônomo e independente dentro de um documento HTML. Isso pode incluir notícias, blog posts, comentários de usuários, artigos de revistas e outros tipos de conteúdo que possa ser isolado do restante do conteúdo da página e ainda fazer sentido.
+    A tag "article" é um elemento semântico, o que significa que ela ajuda a dar significado estrutural e semântico ao conteúdo dentro dela. Isso pode ajudar os mecanismos de busca a entender melhor a estrutura do site e pode tornar o conteúdo mais acessível para leitores de tela e outras ferramentas de acessibilidade.
+
+NOTA:   A tag "article" é semelhante à tag "section", mas enquanto a tag "section" é usada para dividir o conteúdo em blocos semânticos, a "article" indica que o conteúdo dentro dele é independente e pode ser compartilhado, distribuído ou syndicated fora do contexto da página.
+
+NOTA:   A tag "aside" do HTML é usada para marcar um conteúdo que é relacionado ao conteúdo principal da página, mas que não é essencial para a compreensão do conteúdo principal. Esse conteúdo pode incluir informações adicionais, como notas, citações ou comentários, ou pode incluir elementos de layout, como barras laterais ou widgets.
+    A tag "aside" é um elemento semântico, o que significa que ela ajuda a dar significado estrutural e semântico ao conteúdo dentro dela. Isso pode ajudar os mecanismos de busca a entender melhor a estrutura do site e pode tornar o conteúdo mais acessível para leitores de tela e outras ferramentas de acessibilidade.
+
+
+NOTA:   Melhor configuração que achei até agora para deixar o texto no rodapé da página e centralizado de forma correta.
+
+        position: absolute;
+        bottom: 0;
+        left: 50%; /* Centralizar horizontalmente */
+        transform: translateX(-50%); /* Centralizar horizontalmente */
+        width: 100%; /* Ocupar toda a largura da tela */
+
+NOTA:   position: absolute signfica:
+    A propriedade "position" do CSS é usada para especificar a posição de um elemento em relação ao seu elemento pai. A propriedade "position: absolute" indica que o elemento será posicionado com relação ao elemento pai mais próximo que tenha a propriedade "position" diferente de "static".
+    Quando um elemento tem a propriedade "position: absolute", as propriedades "top", "right", "bottom" e "left" podem ser usadas para especificar a posição exata do elemento em relação ao elemento pai. Por exemplo, "top: 10px" fará com que o elemento seja posicionado 10 pixels acima do elemento pai, enquanto "left: 20px" fará com que o elemento seja posicionado 20 pixels à esquerda do elemento pai.
+    É importante notar que quando um elemento tem "position: absolute" ele é retirado do fluxo normal do documento e não afeta a disposição dos elementos vizinhos. Ele não ocupa espaço no layout e não afeta o tamanho do elemento pai.
+    Além disso, os elementos filhos de um elemento com "position: absolute" também são posicionados com relação a esse elemento, e não ao elemento pai mais próximo
+
+NOTA:   left: 50% 
+    A propriedade "left" do CSS é usada para especificar a posição horizontal de um elemento com "position: absolute" em relação ao elemento pai. Quando o valor é definido como "50%", isso significa que o elemento será centralizado horizontalmente em relação ao elemento pai.
+    Isso é conseguido dividindo a largura do elemento pai pela metade e posicionando o elemento filho na metade esquerda. Por exemplo, se o elemento pai tem uma largura de 1000 pixels, o elemento filho será posicionado com "left: 500px" (metade da largura do elemento pai).
+    É importante notar que essa propriedade só funciona se o elemento pai tiver posição relativa ou absoluta. Caso contrário, o elemento filho será centralizado em relação ao documento inteiro e não ao elemento pai.
+    Para centralizar completamente o elemento no eixo horizontal é necessário também usar a propriedade "transform: translateX(-50%)" que move o elemento 50% para a esquerda a partir do ponto de origem. Isso faz com que o elemento fique centralizado no centro do elemento pai.
+
+
+NOTA: "transform: translateX(-50%)
+    A propriedade "transform" do CSS é usada para modificar o formato visual de um elemento, como a sua posição, escala, rotação e distorção. A função "translateX" é usada para mover o elemento em relação ao eixo horizontal (x) em pixels ou porcentagem.
+    Quando usada com o valor "-50%", a função "translateX" move o elemento 50% da sua largura para a esquerda a partir do seu ponto de origem. Isso faz com que o elemento fique centralizado horizontalmente em relação ao seu elemento pai.
+    É importante notar que a propriedade "transform" não afeta o layout da página, mas sim a forma como o elemento é exibido. Isso significa que o elemento continua ocupando o mesmo espaço no layout, mas é deslocado visualmente. Isso é diferente de outras propriedades de posicionamento, como "left" ou "right", que afetam o layout e ocupam o espaço no layout.
+    A propriedade transform é uma propriedade muito versátil e pode ser usada para vários tipos de transformações, como rotacionar, escalar, ou distorcer elementos, além de movimentar
+
+NOTA:   BOX-SHADOW
+    Box Shadow é uma propriedade CSS que permite adicionar uma sombra à caixa de um elemento HTML. Lembrando que os parâmetros principais são deslocamento horizontal, deslocamento vertical e espalhamento e sombra.
+     Ela é composta por vários parâmetros, incluindo:
+
+    box-shadow: offset-x offset-y blur-radius spread-radius color;
+
+offset-x: determina o deslocamento horizontal da sombra em relação à caixa. Pode ser positivo ou negativo.
+offset-y: determina o deslocamento vertical da sombra em relação à caixa. Pode ser positivo ou negativo.
+blur-radius: determina o tamanho do desfoque da sombra. Quanto maior o valor, maior o desfoque.
+spread-radius: determina a extensão da sombra. Quanto maior o valor, maior a extensão da sombra.
+color: determina a cor da sombra. Pode ser especificada como uma cor em RGB, hexadecimal ou uma string de nome de cor.
+
+    box-shadow: -5px -5px 5px 2px #888888;  Sombra para cima:
+
+    box-shadow: 10px 10px 5px 2px #888888, 20px 20px 10px 5px #cccccc; possibilidade de adicionar várias sombras ao elemento.
+
+    box-shadow: 5px 5px 5px #888888; sombra deslocada um pouco para direita, baixo...
+
+NOTA: Lembrando que o deslocamento pode ser negativo que é para cima e para esquerda. Existe também o efeito da sombra "inset", que indica que a sombra deve ser exibida como se estivesse dentro da caixa, criando um efeito de pressionamento. Quando usado, este valor deve ser especificado antes dos outros valores da sombra. Por exemplo:
+    box-shadow: inset 5px 5px 5px #888888;
+
+NOTA:   O ideal é uma sombra clara, puxado do black para transparência ou indo pro cinza.
+
+NOTA:   O BORDER-RADIUS, é o comando para deixar mais redondo os cantos das bordas, sendo mais suave para ler. Por exemplo:
+
+    border-radius: 20px; (aplica a configuração geral)
+        Aplica as configurações específicas
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+
+    Tem a possibilidade de um shorthand, colocando dessa forma:
+        border-radius: 20px 20px 20px 20px;
+    Tem a possibilidade de colocar somente dois parâmetros e trava no mesmo sentido horário, que eram as margens, ficando assim:
+        border-radius: 20px (top-left; bottom-right) 20px (top-right; bottom-left);
+
+    Se eu utilizar o border-radius de 50% fica uma bola
+        border-radius: 50%;
+ 

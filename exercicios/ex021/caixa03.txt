@@ -1,0 +1,14 @@
+Aqui estamos tratando sobre bordas personalizadas utilizando imagens, podemos utilizar esses comandos específicos:
+h1 {
+    border: 6px solid transparent;
+    padding: 10px;
+    border-image-source: url('borda.png');
+    border-image-slice: 24;
+    border-image-repeat: round;
+    }
+
+NOTA:   Existe a possibilidade de usar um shorthand com se colocar nessa ordem:
+    border-image: url('nome do arquivo dentro do apócrifo') 27 round;
+
+    Dentro do exercício a dificuldade em tirar a seleção da primeira camada se resolve apertando o atalho
+ctrl+shift+a

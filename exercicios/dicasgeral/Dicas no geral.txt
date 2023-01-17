@@ -1,0 +1,24 @@
+EXTENSÕES
+
+ColorZilla; Encurtador de url; Fonts Ninja; Save image by right click; Window Resizer;
+
+
+
+ATALHOS
+
+ALT+SHIFT+F Para organizar uma identação de forma automática com os atalhos de todo o texto ou de parte selecionada.
+
+CTRL+D serve para buscar no documento todas as palavras iguais que estão selecionadas.
+
+SHIFT+TAB apara o espaço de um "tab" na forma backspace
+
+CTRL+SHIFT+P abre a caixa de pesquisa se digitar "ABB" serve para envelopar o termo que estiver selecionado. Envelopar e 
+colocar diretrizes antes e depois; abre e fecha. </>
+
+CTRL+ESPAÇO server para abrir algumas sugestões em determinados lugares.
+
+Abreviação - envelopa e abbr
+
+ALT+CLIC serve para colocar o seletor em diferentes lugares dos documento, podendo excluir, adicionar, copiar, recortar etc. em vários pontos
+
+CTRL+SHIFT+P Após envelopar algo e voce desejar colocar o tag "strong", digitar apenas "STR".

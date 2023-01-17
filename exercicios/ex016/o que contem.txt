@@ -1,0 +1,55 @@
+aqui ensina a representacao de cores
+
+representacao por nomes
+    <h2 style="background-color: blue; color: aliceblue;">Exemplo de cores</h2>
+
+representacao hexadecimal (Decimal: 0 1 2 3 ... 9) (Hexadecimal: 0 1 2 ... 9 A - B - C - D - E - F)
+
+    <h2 style="background-color: #0000ff; color: #ffffff;">Exemplo de cores</h2>
+
+    00 vermelho 00 verde ff azul (maximo de azul)
+    os valores numericos vao de 0 a 255 (que representado em hexadecimal da ff que quer dizer o maximo)
+
+NOTA isso em RGB
+
+representacao em RGB
+ lembrar do comando rgb( vermelho, verde, azul)
+style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255)
+
+representacao por Matiz, saturacao e luminosidade hsl (matiz, sat%, lum%)
+    <h2 style="background-color: hsl(240, 100%, 60%); color: hsl(0, 0%, 100%)">Exemplo de cores</h2>
+
+Existe a possibilidade de colocar a cor por nome e abrir a paleta de cores ao passar o mouse por cima, ao clicar no nome RGB acima transforma em hexadecimal ou HSL 
+
+Ao colocar transparencia no rgb, por exemplo, mostra RGBA (a de alfa = transparencia)
+
+NOTA: Para colocar um efeito GRADIENTE o comando e, pode colocar quantas cores preferir, podendo usar to right, to top, to bottom - ou graus como 90deg, 45deg, entre outros graus:
+
+
+    linear-gradient para ser gradiente em uma linha
+
+
+            background-image: linear-gradient(to right, white, blue); ou
+            background-image: linear-gradient(90deg);
+
+Para esquerda 
+            
+            background-image: linear-gradient(to right, cor1, cor2);
+
+Para cima 
+            background-image: linear-gradient(to top, cor1, cor2); no entanto nesse caso tem-se que fazer uma configuracao global.
+
+NOTA: a configuracao global *{ ele utilizou um comando /* digitou texto qualquer*/    
+}
+
+Para baixo
+            background-image: linear-gradient(bottom, cor1, cor2);
+
+NOTA: Deixar o degrade fixo, e some uma barra bem abaixo na pagina com o comando, dentro do style: body             
+background-attachment: fixed;
+
+NOTA: Pode-se colocar o tamanho de cada cor para o degrade, por exemplo: 
+    background-image: linear-gradient(to right, #4763CE 5%, #713DBC 10%, #893AA5 5%, ...);
+
+NOTA: existe o comando radial-gradient para ser um circulo
+    background-image: radial-gradient(circle, cor1, cor2...)

@@ -1,0 +1,55 @@
+ Essas são mais pseudoclasses:
+
+
+        SELETORES PERSONALIZADOS
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildre
+
+ body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aquamarine;
+        }
+
+
+- aqui acontece de todos que tiverem a tag <a> mude a cor, não fique sublinhado, e tenha fonte negrito;
+- quando for visitado fique na cor vermelho escuro
+- com o comando black em hover, toda vez que passe o mouse por cima a cor fica preta.
+- Aqui passou o mouse por cima acontece de ficar com o texto sublinhado.
+- Aqui quando está clicando a cor muda, interage com o usuário.
+
+NOTA: Aqui pode-se configurar de forma geral, quando foi visitado e quando interage com ele.
+
+PSEUDOE-LEMENTOS
+
+:: duas vezes dois pontos por exemplo:
+
+a::after{
+            content: '[link]'; = conteúdo
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+NOTA: Sempre que colocar algum caractere como {}[] coloque o '' para demontrar que é um texto escrito.
+
+a::before{
+            content: '⇒';
+indica antes de interagir
+
+Se der uma classe "especial" você pode configurar individualmente cada elemento. Olhe o exemplo do link do youtube.

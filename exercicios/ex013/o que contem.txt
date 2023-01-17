@@ -1,0 +1,20 @@
+Utilizando os comando do CSS no metodo INLINE, por exemplo.
+
+<body style="background-color: lightskyblue;">
+O fundo todo da pagina ira fica azul claro
+tem como mudar o tamanho da font utlizando o comando
+font-size
+
+<h1 style="color: mediumblue;">Capitulo 1</h1>
+A letra fica azul
+
+Podemos mudar a fonte no corpo body por exemplo
+<body style="background-color: lightskyblue; font-family: Arial, Helvetica, sans-serif;
+
+Para alinhamento de texto o utliza-se
+style="text-align: justify;
+
+Ao utilizar o comando font-size: 0.7em; por exemplo, quer dizer que e 0.7 o tamanho da fonte que foi 20px no caso.
+
+Podemos colocar o fundo tambem so em uma linha com o comando, por exemplo
+<h1 style="color: mediumblue; font-size: 1.5em; background-color: aqua;">Capitulo 1</h1>

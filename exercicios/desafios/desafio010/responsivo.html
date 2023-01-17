@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            /* o valor width é relacionado a largura do conteúdo dentro de main, o margin auto é para deixa centralizado, aqui o máximo que ele pode ocupar mesmo em uma tela enorme é 800px, e o mínimo 320px simulando celulares antigos */
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+            /*Valor relacionado a responsividade da imagem, ela cresce até o limite de 800px e diminui quando encurta a tela*/
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio minus aspernatur obcaecati quia deleniti
+            velit a, nisi doloribus vel sit sequi animi debitis veritatis officia quae! Ad doloribus iusto quaerat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, maxime ratione veritatis omnis eum, expedita
+            id nobis at incidunt dolores illum perspiciatis soluta ipsum tenetur natus culpa quas placeat praesentium.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quae officiis aliquam facilis praesentium
+            ea et quos qui! Porro, cupiditate quasi! Facere odit iusto vel commodi sunt ut quam id?</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens\irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina blok">
+        </picture>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio minus aspernatur obcaecati quia deleniti
+            velit a, nisi doloribus vel sit sequi animi debitis veritatis officia quae! Ad doloribus iusto quaerat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, maxime ratione veritatis omnis eum, expedita
+            id nobis at incidunt dolores illum perspiciatis soluta ipsum tenetur natus culpa quas placeat praesentium.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti quae officiis aliquam facilis praesentium
+            ea et quos qui! Porro, cupiditate quasi! Facere odit iusto vel commodi sunt ut quam id?</p>
+    </main>
+
+</body>
+
+</html>

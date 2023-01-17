@@ -1,0 +1,26 @@
+Estilos Externos
+
+UM MACETE ao fazer um link/ancoragem 
+
+<a href="pagina02.html" target="_self">ir para a pagina 2</a></p>
+nao existe a pagina 2, no entanto com a opcao ctrl+click vai dar um erro e vai pedir para criar um novo arquivo.
+
+aqui dentro de "head" criamos um link
+    <link rel="stylesheet" href="style.css">
+
+href="qqnome.css
+
+existe alguns problemas com pontuacoes, e com isso e necessario criar algumas regras, por exemplo:
+@charset "UTF-8";
+
+0BSERVACAO: pode utilizar mais de um link de CSS
+
+pode criar um style local por exemplo em "head"
+<style>
+        h1 {
+            text-decoration: underline;
+        }
+    </style>
+
+    no mesmo arquivo podemos usar css externo, css interno e css inline
+    O inline eh o mais poderoso na configuracao, depois o interno e, consequentemente, o menos poderoso o externo.

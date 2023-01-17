@@ -1,0 +1,4 @@
+desafio bem feito, nao a necessidade de cortar a imagem, so diminuir a largura "pixel" para que ela possa
+se ajustar a imagem do dispositivo, com isso o usuario mantem toda uma experiencia, o ideal ainda e colocar
+de varios de tamanhos para que possa se ajustar melhor.
+os comandos so abrir a pasta no code

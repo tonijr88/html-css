@@ -1,0 +1,34 @@
+FONT01
+
+Podemos utilizar o site GOOGLE FONTS, pois pode parecer limitado configurar tudo na edição do documento.
+
+NOTA: O site é o GOOGLE FONTS
+    Ao selecionar uma fonte abre uma "caixa" do lado direito, se não abrir clicar nos quadrados acima e copiar o código dentro de "style" e também em CSS rules 
+
+NOTA: logo abaixo do Style e iniciar com @ para importar qualquer coisa e não pode estar dentro de um seletor.
+
+NOTA: Você precisa importar a url e especificar onde quer usar na caixa CSS rules, isso se quiser utilizar a fonte em diferentes lugares dentro do seu documento.
+
+
+FONT02
+
+NOTA: sempre ficar ligado na fonte que for escolher se vai ter as pontuações corretas, pois tem algumas que não tem acentos, portanto não-usuais em nossa lingua.
+
+NOTA: SITE de fonte para baixar Dafont.com, extraia e deixe na pasta do seu trabalho, depois para importar com o comando:
+    @font-face {
+            font-family: 'nome qq'; - posso dar o nome que quiser aqui, lembrando que deve ser entre '', no entanto não tem a necessidade, porém fazer o teste.
+            src: url('love larry.otf') format ('opentype'), - se quiser colocar mais outras variações dos arquivos continua - url('love larry.ttf) format('truetype); Aqui talvez seja necessários pois pode ter alguns dispositivos que não consigam se ajustar. 
+            }
+
+NOTA: Posso colocar barra \ para demonstrar um espaço, com isso não preciso colocar entre '' (love\ larry.ttf)
+
+NOTA: Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-att (Apple Advanced Typography)
+                - svg
+
+NOTA: FONTES NINJA, capturar as fontes de outros sites, baixar uma extenção na google store com o nome fonts ninja.
+
+NOTA: Podemos capturar fontes de imagens também, o site WHATFONTIS.COM - FONTSQUIRREL.COM - MYFONTS.COM

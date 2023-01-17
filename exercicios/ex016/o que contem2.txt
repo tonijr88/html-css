@@ -1,0 +1,21 @@
+Aqui linkamos o arquivo Style.css na cabeca do cor03
+utilizando a tag <main> no body, nao foi explicado sobre
+
+o comando
+
+main {
+    background-color: white;
+    width: 600px; (largura do texto na pagina)
+    padding: 10px; (largura apos o termino do texto)
+    margin: auto; (mantem o texto centralizado independente de sua manifestacao no site)
+    border-radius: 10px; (deixa as bordas da parte branca mais redondas, dando mais suavidade para o usuario)
+    box-shadow: 5px 5px 15px black; (deixa a caixa do texto com uma sombra, primeiro parametro quando a sombra vai para o lado direito, segundo parametro quanto ela vai andar para baixo, terceiro parametro quanto vai espalhar e o ultimo a cor)
+
+h1 {
+    color: #2C3532; (cor da letra)
+    text-align: center; (alinhamento do texto)
+    text-shadow: 1px 1px 4px #0f6566cc; (colocando uma leve sombra)
+
+
+
+}

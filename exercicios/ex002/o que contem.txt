@@ -1,0 +1,2 @@
+Aqui ensina a colocar os símbolos <> $ &nome; hexadecimal como emoji
+&#x e o codigo com ; no final

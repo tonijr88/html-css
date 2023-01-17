@@ -1,0 +1,5 @@
+contem como colocar uma imagem linkavel
+contem como voltar uma pagina, como ir para uma pagina fora do seu ambiente
+como centralizar um texto
+como mexer no background
+e com mudar a fonte

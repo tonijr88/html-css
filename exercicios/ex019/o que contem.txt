@@ -1,0 +1,34 @@
+Aqui utilizamos o "id" para identificar melhor o texto e poder formata-lo de forma mais eficiente. Por exemplo:
+
+    <h1 id="principal">Criando Sites com HTML e CSS</h1>
+
+No arquivo CSS depois de identificarmos o que deve ser configurado, fazemos com esse comando:
+    
+    h1#principal {}
+
+NOTA: não tem necessidade de colocar o identificado "h1" pode utilizar somente o #principal
+
+NOTA: em HTML é "id" = em CSS é "#"
+    em HTML é "class" = em CSS é "."
+
+NOTA: A regra w3c é dentro de um mesmo documento só pode utilizar o "id" em um lugar, mesmo que funcione em outro lugar.
+
+NOTA: Quando se tem dois elementos e quer aplicar a mesma configuração utiliza-se o "class".
+
+IMPORTANTÍSSIMO: Atalho ao colocar o curso em mais de um lugar segurando o "alt" é possível incluir ou apagar mais coisa onde estiver selecionado.
+
+NOTA: "id" é único; "class" é multiplo.
+
+NOTA: com o "class" não utiliza "#" e sim o "." ponto.
+
+IMPORTANTÍSSIMO: O temo <span> funciona para trechos do texto. para configuração de trechos específicos.
+
+NOTA: Para colocar mais de uma "class" basta colocar o comando e digitar quais você quer e não precisa separar por vírgula ou ponto e vírgula. 
+    Existe a possibilidade de colocar "id" e "class" tudo junto no mesmo elemento! No entanto, o "id" sobrepõe.
+
+NOTA: O idela é fazer um genérico, que serve para todos, pois os próximos irão herdar as configurações, porém o "id" sobrepõe as configurações feitas anteriormente.
+
+NOTA: em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
+
+NOTA: no mesmo documento html só pode ter um elemento com "id", apesar de funcionar, porém está errado! "id" é único, "class" é múltiplos.

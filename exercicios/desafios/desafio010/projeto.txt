@@ -1,0 +1,86 @@
+Primeiramente planeja o layout do site; Segundo as cores do site; e as fontes.
+
+Ferramenta Site: MOCKFLOW
+
+NOTA:   Valor de "rel"
+        "stylesheet"  Este valor é usado para vincular uma folha de estilo CSS ao documento HTML. Isso permite que você aplique estilos consistentes ao seu site, como fontes, cores e layout.
+        "icon"  Este valor é usado para vincular um ícone ao documento HTML. Ícones são geralmente usados ​​como marcadores visuais para identificar links ou botões, e podem ser exibidos na barra de endereços do navegador ou na guia do site.
+        "nofollow"  Este valor é usado para indicar que o link não deve ser seguido pelos mecanismos de busca. Isso é útil se você deseja evitar que seu site seja associado a conteúdo de baixa qualidade ou spam.
+        "alternate"	Este valor é usado para vincular a uma versão alternativa do documento atual, como uma versão em outro idioma ou para dispositivos móveis.
+        "author"    Este valor é usado para vincular a uma página que contém informações sobre o autor do documento atual.
+        "bookmark"	Este valor é usado para vincular a um marcador ou ponto de referência dentro do documento atual.
+        "help"  Este valor é usado para vincular a uma página de ajuda relacionada ao documento atual.
+        "license"   Este valor é usado para vincular a uma licença que regem o uso do documento atual.
+
+
+
+NOTA: os valores podem ser combinados, exemplo rel="stylesheet alternate" ou rel="nofollow alternate":
+
+    Exemplo de uso do valor "rel='stylesheet alternate'":
+    <link href="styles.css" rel="stylesheet">
+<link href="styles-mobile.css" rel="stylesheet alternate" media="screen and (max-width: 600px)"> - 
+    Nesse exemplo, o primeiro link vincula a uma folha de estilo normal para o documento, e o segundo link vincula a uma folha de estilo alternativa específica para dispositivos móveis, com tela menor que 600px.
+
+    Exemplo de uso do valor "rel='nofollow alternate'" :
+    <a href="http://example.com" rel="nofollow">Link para o site</a>
+<a href="http://example.com/pt-br" rel="alternate nofollow">Link para versão em português do site</a>
+    Neste exemplo, o primeiro link é um link normal com o atributo rel "nofollow" que indica que os mecanismos de busca não devem seguir esse link, o segundo link é uma versão alternativa do site em português, e também contém o atributo "nofollow" indicando que os mecanismos de busca não devem seguir esse link.
+
+NOTA:   Toda variável no CSS começa com "--" o exemplo pratico esta no doc CSS no elemento "root".
+    CSS Variables (também conhecido como "CSS Custom Properties") são uma forma de armazenar valores CSS personalizados que podem ser reutilizados ao longo de um documento. Eles são definidos usando a sintaxe --nome-da-variável: valor; e podem ser acessados usando a sintaxe var(--nome-da-variável).
+
+    Por exemplo, você pode definir uma variável para armazenar a cor principal do seu site e usá-la em vários lugares no seu código CSS:
+        :root {
+            --primary-color: blue;
+        }
+
+        h1 {
+            color: var(--primary-color);
+        }
+
+        a {
+            color: var(--primary-color);
+        }
+
+    Neste exemplo, a variável --primary-color é definida com o valor "blue" e é usada para definir a cor de texto de todos os h1 e links no documento. Se você quiser mudar a cor principal do seu site, basta alterar o valor da variável uma vez e todos os elementos afetados serão atualizados automaticamente.
+    CSS Variables também são herdáveis, o que significa que se uma variável não é definida em um determinado escopo, ele herda o valor da variável mais próxima que está definida. Além disso, eles são animáveis, você pode animar as transições das variáveis usando a propriedade transition e animation.
+
+NOTA:   src: url('../fontes/idroid.otf') format('opentype');
+    O uso do ../ é um mandatário no que refere a voltar uma pasta e entrar no fontes/idroid
+
+IMPORTANTÍSSIMO:    Podemos fazer seleções globais como escrever:
+
+    p, h1, h2 ... Podendo substituir por
+    
+    * {
+    }
+
+NOTA:   main p { /* aqui organiza o p de forma geral dentro de main pois pode existir um 'article', 'div' por exemplo e desse jeito infoma que a formatação em 'p' em qualquer nível*/
+
+NOTA:   O chatgpt me deu os seguintes códigos e funcionou certinho:
+
+    HTML
+
+    <div class="responsive-video">
+        <iframe src="https://www.youtube.com/embed/l2UDgpLz20M" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    CSS
+
+    .responsive-video {
+    position: relative;
+    padding-bottom: 56.25%; /* essa proporção é 9/16, que é a proporção de aspecto de 16:9 */
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+

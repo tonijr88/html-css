@@ -1,0 +1,57 @@
+Sobre TIPOGRAFIA
+
+surgiu no sec. XV com o surgimento da imprensa. Em 1450 o Johannes Gutenberg, inventou a prensa mecanica de tipos moveis (uma caixa com letras) o pai da imprensa. 
+A tipografia melhora da letra, a morfologia e:
+tipo - vem do grego typos (impresao)
+grafia - vem do grego graphia (colocar a escrita no papel)
+
+NOTA:
+time news roman (letra padrao na maioria dos navegadores)
+toda fonte e baseada na letra x minusula, fazendo duas linhas paralelas uma sob e outra sobre o x se torna a base de todas as outras, chamando essa distancia de altura-x.
+
+A altura das Maiusculas é a distância da altura-x até o topo que é a linha paralela a altura-x. Chamando altura das maiúsculas.
+
+A altura do vazamento entre a altura-x e altura das maiúsculas se chama ascendente. E o vazamento da linha da altura-x em sua base com a linha parelala como acontece com a letra p chama-se descendente. 
+
+Somando todas as alturas chama-se CORPO.
+
+NOTA: ANATOMIA GEOMÉTRICOS
+SERIFA é o vazamento no final de algumas fontes, um pequeno "tracinho".
+
+Existe a HASTE que se encontra, por exemplo, na letra A (duas haste), o FILETE é o traço que liga duas hastes, como o "tracinho" na letra A.
+O FILETE também liga o ARCO, como funciona na letra "e".
+
+Agumas fontes utilizam o "ESPORÃO", que parece um saltinho, servindo para dar uma base, acontece na letra "b".
+
+VÉRTICE, aparece na letra "A", "V"...
+
+Existe o TERMINAL, que não tá preso em algum lugar, como, por exemplo, a letra "r".
+
+NOTA: ANATOMIA HUMANIZADAS
+
+BRAÇO, na letra k, temos uma haste e logo um "traço" que sai da letra para diagonal para cima.
+
+PERNA, na letra k, mesma situação acima, só que na diagonal para baixo.
+
+PÉ, onde existe as SERIFAS, as vezes.
+
+Espinha - O meio da letra "S"
+
+Barriga - a letra "b" contem arco e uma "barriga" que e o meio do arco.
+
+Olho - e o meio do espaco da letra, como e formado na letra "Q", "g";
+
+Orelha - e uma pontinha no topo das letras que as vezes sai para algum lado.
+
+Calda - temos uma parte que e formada abaixo da altura-x como a parte que sai do "g", "q".
+
+NOTA: Glifo - uma letra Glifos - sao chamados de caracteres ou letras. Quando se tem um conjunto de glifos se diz FONTE.
+
+NOTA: Familia Tipografica -  Open Sans - Varios formatos da mesma fonte, por exemplo, light, normal, seminegrito, negrito e extranegrito.
+
+NOTA: Categoria de fonte 
+fontes serifadas - (ideal para impressao)
+fontes sans-serif - (sem serifa - ideal para muita leitura em dipositivos)
+fontes monoespaçada - (pode ser com ou sem serifa) todos têm o mesmo espaço.
+fontes handwriting - (tenta simular a caligrafia humana)
+fontes comemorativas ou display - (não se caracteriza com nenhuma acima)

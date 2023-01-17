@@ -1,0 +1,77 @@
+Temos o conteúdo no qual ele ensina as propriedades que contém na página, que é a ferramenta de desenvolvedor. 
+    Por exemplo:
+    Quando clico em h1, aparece as formatações padrões "user agent" do navegador que estiver utilizando, no caso aqui chrome.
+
+NOTA: aqui formatamos o fundo, o tamanho, largura, as bordas, o tamanho antes da borda e o tamanho depois da borda respecivamente por esses comandos:
+
+    h1
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+            
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+NOTA: O comando correto para centralizar o texto pode ser
+    margin: auto;
+
+NOTA: Temos o outline: que é o comando específico para fazer uma linha entre a borda e a margem, tendo várias formatações.
+
+NOTA: Podemos simplificar por "shorthand" alguns comandos, por exemplo:
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+            
+    border: 10px solid darkslategray;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    padding: 10px 10px 10px 10px;
+
+    Se as distâncias forem iguais, você pode colocar somente uma vez ficando assim
+    padding: 10px
+
+    Se por acaso colocar só dois valores o primeiro refere a topo e base e o segundo a direita e esqueda e ficará assim:
+    padding: 10px 20px 
+
+    funciona do mesmo jeito para margin:
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    margin: 20px 20px 40px 20px
+
+    posso centralizar a esquerda e direita no mesmo esquema acima, colocando o comando auto, ficando assim:
+
+    margin: 20px auto 40px auto
+
+    Ocorre o mesmo padrão em outline, ficando assim:
+
+        outline-width: 5px;
+        outline-style: dashed;
+        outline-color: salmon;
+
+        outline: 5px dashed salmon;
+
+NOTA: o "BORDER SIZE" que é o tamanho da caixa - largura e altura.
+
+NOTA: podemos formatar o inline e colocar em bloco com o comando "display" por exemplo:
+    display: block;
+
+    podemos também colocar uma característica inline-block para que ele continue inline com as características de bloco.

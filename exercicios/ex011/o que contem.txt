@@ -1,0 +1,50 @@
+IMAGENS DINAMICAS
+AUDIOS
+
+
+IMAGENS DINAMICAS
+comandos
+<picture>
+	<source media="(max-width: 725px)" srcset="imagens/foto-p.png" type="image/png">
+	<source media="(max-width: 1025px)" srcset="imagem/foto-m.png (caminho do arquivo)" 
+type="image/png (nao vem mostrando o tipo do arquivo">
+	<img>
+
+ctrl + espaco aparece as opcoes de arquivos dentro da pasta atual.
+
+comece pela foto G ou foto P com o comando img, depois use o <source media... de forma
+escalanada, acima do comando <img> o <source media...> com a foto m e acima, com o mesmo
+comando com a foto p.
+
+
+AUDIO
+
+<audio src="midia/Ice & Fire - King Canyon.mp3" controls></audio> nao tem necessidade 
+de colocar o autoplay depois de controls
+
+outra formatos aceitos alem do mp3 - wav - ogg
+
+
+pode utilizar o comando mais completo e mais eficiente no qual vai escolher qual o formato
+o navegador ira escolher
+
+<audio preload="metadata" controls loop>
+        <source src="midia/Ice & Fire - King Canyon.mp3" type="audio/mpeg">
+        <source src="midia/Ice & Fire - King Canyon.ogg" type="audio/ogg">
+        <source src="midia/Ice & Fire - King Canyon.wav" type="audio/wav">
+se nao conseguir escutar em nenhum dos formatos aparecera a mensagem abaixo que voce 
+colocara
+
+
+PRELOAD e o que acontece quando se abre o site existe tres opcoes
+	AUTO para completar o carregamento do site somente quando fizer o download do arquivo 
+completamente
+	METADATA carrega algumas informacoes basica, seria o mais adequado
+	NONE nao carrega nenhuma informacao ate o usuario decidir clicar no arquivo
+
+CONTROLS para aparecer os controles
+
+LOOP para quando terminar o audio ele reiniciar
+
+
+

@@ -1,0 +1,51 @@
+para modificar uma fonte podemos fazer por parágrafo, por corpo ou para o documento local, depende onde coloca o comando, se no <p> fica no parágrafo, se no <body> no corpo, se no documento local em <head>.
+
+Aqui o code sugere tal situação - SAFE COMBINATION
+            font-family: Arial, Helvetica, sans-serif;
+tenta uma e vai indo para outra de acordo com a ordem.
+
+NOTA: se colocar em font-family: sans-serif, vai ta dizendo para se adaptar e colocar a fonte sem serifa em qualquer dispositivo isso de forma genérica.
+
+NOTA: ao digitar o comando "font-family:" ele vai dar algumas opções de combinação de fontes, se estiver assim             font-family: ; colocar o seletor no meio e apertar ctrl + espaço.
+
+NOTA: posso formatar somente junto vários "h" e "p" juntamente no seçao head.
+
+NOTA:   Medidas Absolutas
+        cm, mm, in, px, pt, pc (duas ultimas ponto e paica e mais utilizado para papel)
+
+        Medidas Relativas
+        em (ao tamanho da fonte ao M), ex (a altura x da fonte), rem (relativo a fonte configura no body), vw (em % da view widght largura - tamanho da tela), vh (em % da altura da view port), %
+
+NOTA: Para a medida de fonte é recomendado o uso do "px" e o "em", 16px geralmente é o tamanho = 1em.
+
+NOTA: o comando correto  font-size: 1cm; não deve existir espaço entre o número e unidade medida. Nesse parâmetro vai ficar 1cm o corpo da fonte.
+
+NOTA: normalmente o tamanho da fonte é 16px, em editores de     texto a unidade de medida é o ponto pt, difere do px pois é um pouco maior. 
+
+NOTA: Temos o peso da fonte que é para configurar se ela é mais magrinha, mais gordinha... 
+        font-widght: normal;
+    lighter (magro) normal bold (como negrito) bolder (extra negrito)
+    ou
+    Por número exemplo:
+        font-weight: 100;
+    
+    Podemos utilizar o comando:
+        font-style: normal ou italic etc
+
+    Podemos utilizar o comando:
+        text-decoration-line: line-through, underline etc;
+    
+    Podemos utilizar o comando:
+        text-transform: uppercase; deixar todas maiúsculas
+
+NOTA: Podemos criar uma - shorthand font - nesta ordem abaixo, que substitui colocar aquele tanto de linhas:
+
+font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 3m;
+            font-style: italic;
+
+E ficará assim e deverá ficar nessa ordem:
+    - font-style -> font-wight -> font-size -> font-style*/
+
+    font: italic bolder 3em 'Work Sans, sans-serif

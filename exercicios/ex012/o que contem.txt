@@ -1,0 +1,35 @@
+VIDEOS
+
+o ideal e ter o video em varios formatos
+arquivos permitidos html5
+mp4/m4v webm ogv
+
+
+Comando correto para video hospedado no seu servidor
+<video src="onde esta o arquivo" width="525" controls>
+
+width eh a largura do video
+
+agora de modo mais completo
+<video width="525" poster="lugar da imagem da capa do video" preload="metadata" controls>
+        <source src="midia/video1mp4.mp4" type="video/mp4">
+        <source src="midia/Video2mkv.mkv" type="video/mkv">
+        <source src="midia/video3webm.webm" type="video/webm">
+        <source src="midia/video4ogv.ogv" type="video/ogg">
+        <p>Seu navegador nao tem compatibilidade com reproducao de videos</p>
+</video>
+
+segue na linha de preferencia acima, primeiro linha eh preferencial e logo depois a segunda
+
+VIDEOS HOSPEDADOS FORA DO SEU SERVIDOR 
+
+Adicionando videos de servicos de videos como Youtube
+uma opcao para o cliente para nao consumir dados do
+ seu servidor e utilizar videos do youtube, ao clicar em compartilhar utilizar o INCORPORAR e colar no seu arquivo
+<iframe width="525" height="315" src="enderco url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Para adicionar video de outro plataforma como Vimeo, e no mesmo esquema
+aperta em compartilhar vai aparecer algumas opcoes, voce
+escolhe o quer mudar e copia o codigo e cola na seu html
+
+O comando correrto eh o <iframe src="" frameborder="0"></iframe>

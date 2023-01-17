@@ -1,0 +1,3 @@
+aqui ensina a formartar o texto
+colocar uma marcação de uma cor específica
+negrito utilizar o termo <strong> p negrito <em> para itálico <mark> para texto marcado etc

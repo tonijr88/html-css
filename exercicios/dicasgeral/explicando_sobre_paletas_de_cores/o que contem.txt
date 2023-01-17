@@ -1,0 +1,68 @@
+Harmonia das Cores
+
+Temos o circulo cromatico e com ele tem o circulo cromatico para deixar harmonico
+
+cores primarias
+amarelo/vermelho/azul
+
+cores secundarias
+laranja/violeta/verde
+
+cores terciarias
+primaria+secundaria
+exemplo: amarelo-esverdeado; amaraelo-laranjado; vermelho-laranjado; vermelho-arroxeado; azul-arroxeado; azul-esverdeado.
+
+as cores pasteis são terciarias
+
+Cores frias esta entre o primeiro tom de verde e sentido anti-horario o terceiro tom depois do azul.
+Cores quentes do amarelo no sentido horario um tom depois do vermelho.
+
+Ao criar um site é bom ter uma paleta de cores o ideal é no máximo 5 cores. 
+Na logo analisar a cor principal para ser a cor principal do site.
+
+Cores Complementares = maior contraste
+na paleta de cores sempre olhar a cor oposta, fazer uma linha reta entre as cores.
+
+Cores análogas
+são as que não tem contrastes grandes mais tem uma similaridade, uma harmonia.
+
+É possivel utilizar cores análogas e Complementares
+exemplo: Violeta que é forte, as analogas e uma complementar que é o amarelo, é uma paleta de 4 cores.
+
+Cores análogas relacionadas
+cores análogas são três vizinhas, portanto a relacionadas são duas cores, pula uma cor e pega a terceira cor, tanto horário quanto antihorário.
+
+Cores Intercaladas
+pula uma cor da paleta e depois pula mais outra, formando três cores intercaladas, podendo girar para qualquer lado.
+
+Cores Intercaladas chamadas Triadicas
+cor de referência como exemplo, o amarelo - pula três cores, e vai para o vermelho, pula mais três e cai no azul. Formando um triângulo equilatero.
+
+Cores Intercaladas em Quadrado
+ao invés de pular três cores, pula-se duas somente, fomando um quadrado.
+
+Cores Tetradicas
+quando utiliza quatro cores complementares, formando assim um retângulo, lembrando que cores complementares são cores opostas.
+
+Cor Monocromia
+Pega somente uma cor e muda a saturação e o brilho. Criando uma cor com suas variações, como se fosse um degradê.
+
+o SITE COLOR.ADOBE.COM auxilia na paleta de cores, dando sugestoes de como deve ser.
+se o cliente manda o logo com as cores no site acima tem como extrair o tema e selecionar a cor especifica que você desejar.
+existe a possibilidade de montar um degradê na aba extrair gradiente tem o limite de gradiente do lado esquerdo.
+
+na aba explorar aparece algumas sugestões de cores para a paleta com vários filtros de busca.
+
+
+Outra ferramenta que pode ajudar é Paletton.com
+uma coisa importante que faz automaticamente é a possibilidade de montar um site ao escolher as cores em "exemples".
+
+Outra excelente ferramenta é o coolors.co 
+várias opções para ajudar em uma paleta de cores, inclusive como fixar uma cor e ir modificando as outras apertando "espaço". 
+
+CAPTURAR CORES DA TELA 
+
+Existe a possibilidade de conseguir a cor da tela que você esta vendo.
+Como usualmente fazem, tiram um printscreen e abrem, por exemplo, no GIMP e usam a ferramenta conta gotas.
+
+NOTA: O jeito mais eficiente e utilizar a extensao ColorZila ele tem uma ferramenta onde pega um conta gotas para selecionar a cor desejada 

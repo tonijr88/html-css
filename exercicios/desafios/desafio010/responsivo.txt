@@ -1,0 +1,9 @@
+NOTA:   O valor width é relacionado a largura do conteúdo dentro de main, o margin auto é para deixa centralizado, aqui o máximo que ele pode ocupar mesmo em uma tela enorme é 800px, e o mínimo 320px simulando celulares antigos. Todo esse aqui está em <style>;
+
+    No entanto, não está modificando a imagem, pode resolver isso com o tag "pícture" dessa forma:
+    <picture>
+            <source media="(max-width: 600px)" srcset="imagens\irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina blok">
+        </picture>
+
+    Valor relacionado a responsividade da imagem, ela cresce até o limite de 800px e diminui quando encurta a tela.;

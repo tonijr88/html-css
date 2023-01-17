@@ -1,0 +1,2 @@
+formatação para deixar no codigo fonte, para melhor entendimento <code>
+e também sobre citações

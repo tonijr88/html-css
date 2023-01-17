@@ -1,0 +1,125 @@
+A "div" é uma tag HTML que representa uma seção genérica ou área de conteúdo em um documento HTML. Ela é comumente usada como uma forma de agrupar outros elementos HTML para fins de estilo ou script.
+
+Uma "div" geralmente não tem significado semântico específico, o que significa que ela não representa um tipo específico de conteúdo, como um parágrafo ou uma lista. Em vez disso, é usado como uma forma de criar estrutura e organização para o conteúdo em uma página.
+
+NOTA: Este comando faz uma borda na "linha" selecionada:      
+    border: 1px solid black;
+    
+    Estes comandos determinam a largura e a altura da linha:
+        height: 200px;
+        width: 200px;
+
+Estes comandos são relacionados a tag "display: crtl+espaço;"
+
+inline-block: exibe o elemento como um elemento de linha, mas permite que ele seja dimensionado com base nas suas dimensões de largura e altura.
+
+block: exibe o elemento como um elemento de bloco, ocupando todo o espaço disponível na largura da sua caixa pai e tendo uma quebra de linha antes e depois dele.
+
+inline: exibe o elemento como um elemento de linha, ocupando apenas o espaço necessário para o seu conteúdo e sem quebra de linha antes ou depois dele.
+
+none: remove o elemento da visualização e do fluxo do documento.
+
+flex: Exibe um elemento como um container flexível, que permite organizar e alinhar seus filhos com mais flexibilidade.
+
+
+As pseudoclasses CSS são um tipo especial de seletor que permite você selecionar elementos baseados em algum estado específico, em vez de sua estrutura de marcação ou sua classe ou ID. Elas são precedidas por um dois-pontos (:) e geralmente são usadas para selecionar elementos quando o usuário interage com eles.
+
+:hover: seleciona um elemento quando o cursor do mouse está sobre ele
+:active: seleciona um elemento quando ele está ativo, geralmente quando o usuário clica nele
+:focus: seleciona um elemento quando ele está com o foco, geralmente quando o usuário clica nele ou usa o tab para navegar para ele
+:visited: seleciona um elemento de link quando o usuário já visitou a página a qual o link aponta
+:first-child: seleciona o primeiro elemento filho dentro de um elemento pai
+:last-child: seleciona o último elemento filho dentro de um elemento pai
+
+div:hover{
+  color: red;
+}
+
+
+Neste exemplo acima, a cor do texto será vermelho quando o usuário passar o cursor do mouse sobre o elemento <a>
+
+Essas pseudoclasses são particularmente úteis quando você deseja alterar o estilo de um elemento de acordo com a interação do usuário, como mudar a cor de um link quando o cursor do mouse passa por cima dele ou mostrar um elemento somente quando um outro elemento é clicado.
+
+É possível combinar as pseudoclasses com outros seletores, isso aumenta bastante a sua flexibilidade e possibilidades de estilos.
+
+As pseudoclasses também podem ser combinadas com pseudo-elementos (como :before e :after) para produzir efeitos interessantes e mais avançados.
+
+NOTA: Alguns exemplos
+
+/* Pseudoclasse :hover */
+a:hover{
+  color: red;
+}
+/* Isso fara com que os links <a> ficam vermelhos quando o cursor estiver em cima dele */
+
+/* Pseudoclasse :active */
+button:active{
+  background-color: blue;
+}
+/* Isso fara com que o fundo do botão fique azul quando o usuário clicar nele */
+
+/* Pseudoclasse :focus */
+input:focus{
+  border: 2px solid green;
+}
+/* Isso fara com que a borda do campo de entrada fique verde quando ele tiver o foco */
+
+/* Pseudoclasse :visited */
+a:visited{
+  color: purple;
+}
+/* Isso fara com que os links <a> já visitados fiquem roxos */
+
+/* Pseudoclasse :first-child */
+li:first-child{
+  font-weight: bold;
+}
+/* Isso fara com que o primeiro elemento <li> dentro de uma lista <ul> ou <ol> tenha o texto em negrito*/
+
+/* Pseudoclasse :checked */
+input[type="checkbox"]:checked + label{
+  text-decoration: line-through;
+}
+/* Isso fara com que o texto da label associada a um checkbox marcado seja riscado */
+
+/* Pseudoclasse :disabled */
+input[type="submit"]:disabled{
+  background-color: gray;
+}
+/* Isso fara com que o botão de envio fique cinza quando desabilitado */
+
+/* Pseudoclasse :empty */
+p:empty{
+  display: none;
+}
+/* Isso fara com que os elementos <p> vazios não sejam exibidos */
+
+/* Pseudoclasse :enabled */
+input[type="text"]:enabled{
+  border: 1px solid black;
+}
+/* Isso fara com que os campos de texto ativos tenham uma borda preta */
+
+/* Pseudoclasse :first-of-type */
+img:first-of-type{
+  border: 10px solid red;
+}
+/* Isso fara com que a primeira imagem dentro de um elemento pai tenha uma borda vermelha grossa */
+
+/* Pseudoclasse :not(selector
+
+
+NOTA: Os parágrafos que estão dentro de div serão modificados, quer dizer que ele é um filho e este é o comando:
+  div > p {
+            display: none; (exemplo do que vai ocorrer somente no parágrafo que está dentro de "div")
+
+  Se por acaso quiser que mostre o que tá escondido o comando ficaria assim:
+   div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+NOTA: width: fit-content; este comando deixa a largura do backgound da largaura do texto digitado
