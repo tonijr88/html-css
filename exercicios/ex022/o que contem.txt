@@ -40,3 +40,9 @@ Primeiro vem a coluna e depois as linhas, isso começando da esquerda para a dir
 
 
 NOTA:   No background size, o valor contain dá a ordem para a imgaem se 100% exibida, independente do tamanho da tela. Se utilizar o argumento "cover" ele vai cobrir todo o tamanho da view port, portanto se quer uma imagem de fundo o melhor seria esse argumento.
+
+NOTA: Em background-attachment existe a possibilidade de cololocar o scroll - nesse caso a imagem de fundo gira junto com o conteudo.
+
+NOTA:   color > image > position > repeat> size > attachment - esta é a ordem para se utilizado o shorthand. No entanto, a utilização correta para tal seria assim:
+        background: black url(local da imagem e sua extenção) center / cover no-repeat fixed;
+        Com a barra "/" para que o CSS interprete de forma correta.
