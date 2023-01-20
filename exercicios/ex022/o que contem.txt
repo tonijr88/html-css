@@ -1,0 +1,9 @@
+Vemos aqui algumas situações sobre como colocar imagens de fundos. Por exemplo:
+
+    <style>
+        body {
+            background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+            background-size: cover; (cobrir toda a tela, aqui tem várias outras propriedades)
+            background-repeat: space; (aqui uma imagem do lado da outra, no entanto temos várias outras propriedades)
+        }
+    </style>
