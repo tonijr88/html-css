@@ -37,3 +37,6 @@ Portanto mostra que a primeira foto está relacionado ao ponto de ancoragem da e
     </style>
 
 Primeiro vem a coluna e depois as linhas, isso começando da esquerda para a direita.
+
+
+NOTA:   No background size, o valor contain dá a ordem para a imgaem se 100% exibida, independente do tamanho da tela. Se utilizar o argumento "cover" ele vai cobrir todo o tamanho da view port, portanto se quer uma imagem de fundo o melhor seria esse argumento.
