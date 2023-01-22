@@ -46,3 +46,9 @@ NOTA: Em background-attachment existe a possibilidade de cololocar o scroll - ne
 NOTA:   color > image > position > repeat> size > attachment - esta é a ordem para se utilizado o shorthand. No entanto, a utilização correta para tal seria assim:
         background: black url(local da imagem e sua extenção) center / cover no-repeat fixed;
         Com a barra "/" para que o CSS interprete de forma correta.
+
+NOTA:   O position já é relativo por padrão, mas é utilizado nesse caso para poder configurar o "box" que vai ficar por cima. Então, utiliza-se position: releative, na principal, e position: absolute na secundária, mas com isso podemos configurar as distâncias que a caixa secundária vai ocupar com left/right/top/bottom/.
+
+NOTA:   Com esse comando altera os valores da box, podendo colocar onde quiser da viewport:
+    transform: translate(-50%, -50%);
+    E temos aqui a real posição de está um por cima do outro e no meio da viewport, sem problemas.
