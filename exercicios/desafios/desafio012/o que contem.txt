@@ -6,3 +6,7 @@ NOTA:   font-variant: small-caps; aqui as primeiras letras ficam maiores, no ent
 
 NOTA:   Lembrando da hierarquia, todo quanto é valor melhor colocar ordenado, para que saibamos onde irá modificar em cada texto, por exemplo: 
         "section {}, aqui é uma configuraçao global para todos sections, portanto, se aplica a todos, e cada section, pode ter sua configuração particular que sobrepõe a global.
+
+NOTA: font-size: 10vw; Aumenta e diminui de acordo com a largura da tela, não é o ideal, mas por enquanto vamos trabalhar asism.
+
+NOTA: display: inline-block; aqui o bloco se adapita ao tamanho do conteúdo.

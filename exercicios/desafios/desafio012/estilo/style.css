@@ -1,13 +1,28 @@
 @charset "utf-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*Aquis são as fontes importadas, lembrando de fazer o root e depois configurar onde devem ser colocadas*/
+
+:root {
+    --fonte1: Verdana, Geneva, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
 }
 
-html, body {
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html,
+body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
@@ -19,30 +34,39 @@ header {
 
 header h1 {
     padding-top: 50px;
-    font-variant: small-caps; /*aqui as primeiras letras ficam maiores, no entanto, todas estão maiúsculas */
+    font-variant: small-caps;
+    /*aqui as primeiras letras ficam maiores, no entanto, todas estão maiúsculas */
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    /*Aumenta e diminui de acordo com a largura da tela, não é o ideal, mas por enquanto vamos trabalhar asism.*/
 
-    }
+}
 
-header > p {
+header>p {
     padding-bottom: 50px;
 }
 
-header a, footer a  {
+header a,
+footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    
+
 }
 
-header a:hover, footer a:hover  {
+header a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
-section{
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em; /*espaçamento duplo entre as frases*/
+    line-height: 2em;
+    /*espaçamento duplo entre as frases*/
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3,5vw;
 }
 
 section.normal {
@@ -55,8 +79,9 @@ section.imagem {
     color: white;
 }
 
-section.imagem > p {
-    width: 400px;
+section.imagem>p {
+    display: inline-block; /*aqui o bloco se adapita ao tamanho do conteúdo*/
+    padding: 5px; /*para não ficar muito colado no bloco*/
     background-color: rgba(0, 0, 0, 0.253);
 }
 
