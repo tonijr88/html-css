@@ -1,0 +1,8 @@
+o html foi todo copiado daquela forma.
+
+NOTA:   Para deixar todas as letras maiusculas podemos utilizar o comando "text-transformation: upppercase".
+
+NOTA:   font-variant: small-caps; aqui as primeiras letras ficam maiores, no entanto, todas estão maiúsculas.
+
+NOTA:   Lembrando da hierarquia, todo quanto é valor melhor colocar ordenado, para que saibamos onde irá modificar em cada texto, por exemplo: 
+        "section {}, aqui é uma configuraçao global para todos sections, portanto, se aplica a todos, e cada section, pode ter sua configuração particular que sobrepõe a global.
