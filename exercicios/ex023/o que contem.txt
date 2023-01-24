@@ -1,0 +1,9 @@
+NOTA:   Hierarquia de tabelas simples
+    Table = tabelas 
+        TABLE ROW <tr> = linha de tabela
+            TABLE HEADER = cabeçalho de tabela
+            TABLE DATA <td> = dado de tabela
+
+NOTA: border-collapse: collapse; aqui é sem borda, um "quadrado colado no outro", o valor padrão é "separate", que mostram com uma pequena distância entre elas.
+
+NOTA:   A conveção diz que opcional o fechamento das tags "td".
