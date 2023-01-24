@@ -66,7 +66,11 @@ section {
     /*espaçamento duplo entre as frases*/
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3,5vw;
+    font-size: 3, 5vw;
+}
+
+section>p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -77,13 +81,33 @@ section.normal {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-size: cover;
+    background-attachment: fixed; /*Essa aqui é a configuração para deixar fixa e o efeito paralax funcionando*/
+
 }
 
 section.imagem>p {
-    display: inline-block; /*aqui o bloco se adapita ao tamanho do conteúdo*/
-    padding: 5px; /*para não ficar muito colado no bloco*/
-    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    /*aqui o bloco se adapita ao tamanho do conteúdo*/
+    padding: 5px;
+    /*para não ficar muito colado no bloco*/
+    background-color: rgba(0, 0, 0, 0.404);
+    text-shadow: 1.5px 1.5px 1px black;
 }
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    /*aqui utiliza-se o '..' para identificar que vai subir uma pasta, e depois ir para imagens*/
+    background-position: right center;
+
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+}
+
+
 
 footer {
     background-color: black;
