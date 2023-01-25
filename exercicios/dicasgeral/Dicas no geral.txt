@@ -22,3 +22,5 @@ Abreviação - envelopa e abbr
 ALT+CLIC serve para colocar o seletor em diferentes lugares dos documento, podendo excluir, adicionar, copiar, recortar etc. em vários pontos
 
 CTRL+SHIFT+P Após envelopar algo e voce desejar colocar o tag "strong", digitar apenas "STR".
+
+Esse comando cria tr*3>td*2 três linhas tr e dois filhos td em cada uma de forma automática.

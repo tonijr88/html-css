@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative; /*isso para modificar o cabeçalho para ficar fixo depois da rolagem*/
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+
+        thead,
+        tfoot {
+            background-color: gray;
+            color: white;
+            padding: 5px;
+        }
+
+        thead >tr > th { /*serve para deixar o cabeçalho fixo depois da rolagem*/
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: white;
+            text-decoration: underline;
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: lightgray;
+            font-weight: bold;
+        }
+
+        td.numero {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46,024m</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">20,7m</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">16m</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14m</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">10m</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">111m</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9m</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9m</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8m</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7m</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7m</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7m</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">4m</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4m</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="numero">4m</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="numero"> 4m </td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="numero">3m</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3,2m</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3,1m</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="numero">2,9m</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="numero">2,8m</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="numero">2,2m</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="numero">1,6m</td>
+            </tr>
+            <tr>
+                <td>Tocantis</td>
+                <td class="numero">1,5m</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="numero">800mi</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="numero">774mi</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">634mi</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero"><strong>210m</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

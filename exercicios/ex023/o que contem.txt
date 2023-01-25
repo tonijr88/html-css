@@ -18,3 +18,33 @@ NOTA: text-align: center;
         text-align: right;
         por padrão número no excel é alinhado na direita, por isso o texte aqui.
     }
+
+NOTA:   ANATOMIAS PARA TABELAS GRANDES
+    TABLE
+        CAPTION serve como uma legenda
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH        
+
+NOTA:   Normalmente o título da coluna é TH como População na conluna em tabela 002
+
+NOTA:   THEAD, serve para indicar a cabeça e dentro dela contém o tr => para indicar que é uma tabela; tem o => th (filho de tr) para indicar que é um título; e temos o => td (filho de tr) para indicar que é um dado.
+
+NOTA:   "scope col", para indicar que é uma coluna e quem tem elementos relacionados, no caso dados. O atributo "scope" em HTML é usado para especificar o alcance de uma célula de tabela. Ele pode ser usado nas tags "th" (célula de cabeçalho) e "td" (célula de dados) e pode ter três valores diferentes:
+
+        "row": indica que a célula é um cabeçalho para todas as células na mesma linha.
+        "col": indica que a célula é um cabeçalho para todas as células na mesma coluna.
+        "rowgroup" ou "colgroup": indica que a célula é um cabeçalho para um grupo de linhas ou colunas.
+
+NOTA:   Efeito zebrado, de 2n significa que de 2 em 2 ele vai colocando o background color. Se colocar 3n a cada três linhas ele coloca uma lightgray. Posso colocar a palavra também que é "odd" para ímpar, pode usar também o 2n-1; e podemos usar "even" para par. 
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+NOTA:   Podemos configurar também cores diferentes, por exemplo, se queremos ímpares de uma cor utiliza o comando acima entre parênteses "odd" e o background uma cor e o outro comando com "even" e um background color de outra cor.
+
+NOTA:   Vamos fazer com que o cabeçalho fique fixo, para o leitor não se perder no que está lendo, mantendo a informação sem precisar rolar a página.
