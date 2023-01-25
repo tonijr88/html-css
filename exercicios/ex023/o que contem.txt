@@ -48,3 +48,13 @@ NOTA:   Efeito zebrado, de 2n significa que de 2 em 2 ele vai colocando o backgr
 NOTA:   Podemos configurar também cores diferentes, por exemplo, se queremos ímpares de uma cor utiliza o comando acima entre parênteses "odd" e o background uma cor e o outro comando com "even" e um background color de outra cor.
 
 NOTA:   Vamos fazer com que o cabeçalho fique fixo, para o leitor não se perder no que está lendo, mantendo a informação sem precisar rolar a página.
+
+NOTA:   O comando correto para expansão de coluna seria:
+        aqui B ocupou duas colunas.
+
+        <td colspan="2">B</td> 
+
+NOTA:   O comando correto para expansão de linhas seria:
+        aqui F ocupou três linhas
+
+        <td rowspan="3">F</td> 
