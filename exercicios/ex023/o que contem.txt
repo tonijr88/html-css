@@ -7,3 +7,14 @@ NOTA:   Hierarquia de tabelas simples
 NOTA: border-collapse: collapse; aqui é sem borda, um "quadrado colado no outro", o valor padrão é "separate", que mostram com uma pequena distância entre elas.
 
 NOTA:   A conveção diz que opcional o fechamento das tags "td".
+
+NOTA: text-align: center;
+        alinhamento horizontal
+        vertical-align: middle;
+        alinha de forma vertical
+    }
+
+    .numero {
+        text-align: right;
+        por padrão número no excel é alinhado na direita, por isso o texte aqui.
+    }
