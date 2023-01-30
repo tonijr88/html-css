@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Desafio 014</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        .destaque {
+            background-color: lightgray;
+        }
+
+        .forte {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .number {
+            text-align: center;
+        }
+
+        .brilha-fundo:hover {
+            background-color: rgba(135, 206, 250, 0.426);
+        }
+        .brilha-fundo2:hover {
+            background-color: lightcoral
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead class="destaque">
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+
+            </tr>
+            <tr>
+                <th scope="col">Notas 1</th>
+                <th scope="col">Notas 2</th>
+            </tr>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="forte, brilha-fundo2">Exatas</th>
+                <td class="brilha-fundo">Matemática</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+            </tr>
+            <tr>
+                <td class="brilha-fundo">Física</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+            </tr>
+            <tr>
+                <td class="brilha-fundo">Química</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+            </tr>
+            <tr>
+                <td class="brilha-fundo">Biologia</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+            </tr>
+            <tr class="destaque">
+                <th colspan="4" scope="row" style="text-align: left;">Média de Exatas</th>
+                <td class="number">0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="rowgroup" class="forte, brilha-fundo2">Humanas</th>
+                <td class="brilha-fundo">História</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+            </tr>
+            <tr>
+                <td class="brilha-fundo">Geografia</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+                <td class="number">0</td>
+            </tr>
+            <tr class="destaque">
+                <th colspan="4" scope="row" style="text-align: left;">Média Humanas</th>
+                <td class="number">0</td>
+            </tr>
+
+        </tbody>
+        </thead>
+    </table>
+
+</body>
+
+</html>

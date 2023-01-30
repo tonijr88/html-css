@@ -58,3 +58,15 @@ NOTA:   O comando correto para expansão de linhas seria:
         aqui F ocupou três linhas
 
         <td rowspan="3">F</td> 
+
+NOTA:   A atributo scope é usado em conjunto com a tag <th> para definir o escopo de uma célula de cabeçalho de tabela. Ele permite que você especifique se o cabeçalho é um cabeçalho de coluna, linha ou grupo de colunas/linhas.
+
+    Aqui estão os valores possíveis para o atributo scope:
+
+    col: indica que o cabeçalho é um cabeçalho de coluna e se aplica a todas as células na coluna à direita do cabeçalho.
+
+    row: indica que o cabeçalho é um cabeçalho de linha e se aplica a todas as células na linha abaixo do cabeçalho.
+
+    colgroup: indica que o cabeçalho é um cabeçalho de grupo de colunas e se aplica a todas as células nas colunas incluídas no grupo.
+
+    rowgroup: indica que o cabeçalho é um cabeçalho de grupo de linhas e se aplica a todas as células nas linhas incluídas no grupo.
