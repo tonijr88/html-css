@@ -70,3 +70,8 @@ NOTA:   A atributo scope é usado em conjunto com a tag <th> para definir o esco
     colgroup: indica que o cabeçalho é um cabeçalho de grupo de colunas e se aplica a todas as células nas colunas incluídas no grupo.
 
     rowgroup: indica que o cabeçalho é um cabeçalho de grupo de linhas e se aplica a todas as células nas linhas incluídas no grupo.
+
+NOTA:   colgroup para formatar toda uma coluna de forma prática. se utilizar o "span=2" quer dizer que duas colunas terão as mesmas formatações.
+
+NOTA:   Resolvendo a rolagem lateral da tabela com valor "overflow", podendo ser nos dois eixos ou em cada eixo sendo o "x" ou o "y". 
+    Utilizando o overflow, temos a opção de auto (resolvendo a responsividade); scrol (aparece as barras)
