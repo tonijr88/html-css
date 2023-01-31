@@ -9,3 +9,5 @@ NOTA:   As CSS são soberanas, portanto prevalece no caso.
 NOTA:   Existe a propriedade "scolling", no qual faz com que apareça a barra de rolagem, colocando - auto - só aparece se necessário; colocando - yes - irá aparecer independentemente das circunstâncias; se - no - não irá deixar rolar, independentemente das circunstâncias.
 
 NOTA:   O valor "frameborder" só aceita o valor "0" ou "1", que diz sobre as bordas do iframe.
+
+NOTA:   O display block para inline.
