@@ -11,3 +11,10 @@ NOTA:   Existe a propriedade "scolling", no qual faz com que apareça a barra de
 NOTA:   O valor "frameborder" só aceita o valor "0" ou "1", que diz sobre as bordas do iframe.
 
 NOTA:   O display block para inline.
+
+NOTA:   Na configuração do iframe para que seja carregado a página dentro da tela sem abrir uma nova outra temos que colocar o "name" que vem depois de "iframe" veja o exercício.
+
+NOTA:   Vamos criar um arquivo para que seja carregado por padrão, sem precisar clicar em primeira ou segunda página etc. Com isso deixamos o código desta forma:
+<iframe id="tela" name="frame" src="paginas-extras/pag001.html">
+        Podendo ser também o "srcdoc=''".
+        Existe a possibilidade de colocar uma imagem também, da mesma forma, só ficar atento com o uso das aspas, que no caso deve ser simples.
