@@ -18,3 +18,20 @@ NOTA:   Vamos criar um arquivo para que seja carregado por padrão, sem precisar
 <iframe id="tela" name="frame" src="paginas-extras/pag001.html">
         Podendo ser também o "srcdoc=''".
         Existe a possibilidade de colocar uma imagem também, da mesma forma, só ficar atento com o uso das aspas, que no caso deve ser simples.
+
+
+                        PAGINA 004      
+
+NOTA:   Aprendendo sobre a colocar um input.
+
+NOTA:   sandbox="sandox" protege contra ataques maliciosos, fazendo que sandbox receba sandbox. Pode-se permitir aqui se estiver no mesmo servidor para "allow-same-origin"o valor para que seja executado. Aqui algumas características para sandbox:
+                "allow-forms": permite que o conteúdo da iframe envie formulários.
+                "allow-modals": permite que o conteúdo da iframe abra caixas modais, como janelas de alerta.
+                "allow-pointer-lock": permite que o conteúdo da iframe capture e mantenha o controle do ponteiro do mouse.
+                "allow-popups": permite que o conteúdo da iframe abra pop-ups.
+                "allow-same-origin": permite que o conteúdo da iframe tenha acesso a informações de origem e a recursos do mesmo domínio da iframe.
+                "allow-scripts": permite que o conteúdo da iframe execute scripts.
+                "allow-top-navigation": permite que o conteúdo da iframe altere o documento principal da página.
+
+NOTA:   referrerpolicy="no-referer-whe-downgrade" valor padrão, O "referrerpolicy='no-referrer-when-downgrade'" é uma diretiva de política de referência HTTP que especifica como o navegador deve lidar com informações sobre a origem (referência) de uma solicitação. Isso significa que, a menos que a solicitação de destino seja uma conexão segura HTTPS, não será enviado nenhum cabeçalho de referência. Em outras palavras, isso protege as informações de referência sensíveis ao impedir que sejam enviadas em conexões não seguras.
+        O valor "referrerpolicy='no-referrer'" é uma diretiva de política de referência HTTP que especifica que o navegador NUNCA deve incluir informações de referência em uma solicitação. Em outras palavras, isso significa que não haverá informações sobre a origem (referência) da solicitação disponíveis para o destino da solicitação. Esse valor é útil para preservar a privacidade do usuário, já que impede que informações sensíveis sejam enviadas ao destino da solicitação.
